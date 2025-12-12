@@ -2,8 +2,8 @@ import numpy as np
 from scipy.io import wavfile
 import matplotlib.pyplot as plt
 
-PATH_ORIGINAL = "SultansOfSwing_mono.wav"
-PATH_ENCODED = "Decoded_Audio_v3.wav"
+PATH_ORIGINAL = "prueba.wav"
+PATH_ENCODED = "Decoded_Audio.wav"
 
 fs1, audio1 = wavfile.read(PATH_ORIGINAL)
 fs2, audio2 = wavfile.read(PATH_ENCODED)
